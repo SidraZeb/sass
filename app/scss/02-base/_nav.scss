@@ -1,0 +1,38 @@
+/* --- desktop nav --- */
+nav{
+background-color: rgba($primaryColor,0.5);
+padding: 10px;
+@include display(flex);
+@include flex-direction(column);
+@include align-items(center);
+@include justify-content(center);
+@media #{$tablet}{
+@include flex-direction(row);
+
+
+
+}
+a{
+text-decoration: none;
+@media #{$tablet}{
+  color: red;
+}
+&.first{
+text-decoration: underline;
+}
+
+&:hover{
+background-color: blue;
+
+}
+
+}
+
+.second{
+
+  width: 20px;
+  height: 20px;
+background-color: black!important;
+}
+
+}

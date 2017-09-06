@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/* --- Colours --- */
+
+$primaryColor: #BADA55;
+$secondaryColor: #BADA55;
+$tertiaryColor: #BADA55;
+
+$white: #fff;
+$black: #333;
+$grey: #eee;
+$lightGrey: lighten($grey, 5%);
+
+/* --- Colours --- */
+
+
+/* --------------------------------*/
+
+/* --- Fonts --- */
+
+$primaryFont: 'Roboto', sans-serif;
+$secondaryFont: 'Open Sans';
+
+/* --- Fonts --- */
+
+/* --------------------------------*/
+
+
+/* --- Media Querys --- */
+
+$largeMobile: "(min-width: 425px)";
+$small-tablet: "(min-width: 600px)";
+$tablet: "(min-width: 768px)";
+$laptop: "(min-width: 1024px)";
+$desktop: "(min-width: 1420px)";
+
+// example: @media #{$small-tablet} { }
+
+/* --- Media Querys --- */
