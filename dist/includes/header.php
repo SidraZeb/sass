@@ -15,5 +15,5 @@
 <a href="#">Portfolio</a>
 <a href="#">About</a>
 <a href="#">Contact</a>
-<a href="#">Blog</a>
+
 </nav>
